@@ -1,0 +1,31 @@
+.index-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.index-wrapper button {
+    margin-top: 10px;
+}
+
+.positions-table {
+    width: 50%;
+    margin: auto;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+th {
+    cursor: pointer;
+}
+
+#success_message{ display: none;}
